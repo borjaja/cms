@@ -31,11 +31,11 @@ const Header = ({userName}) => (
                
                 <li className="nav-item dropdown">
 
-                    <a className="dropdown-toggle nav-link" 
+                    <button className="dropdown-toggle nav-link"
                         data-toggle="dropdown">
                         <span className="fas fa-user"></span>&nbsp;
                         {userName}
-                    </a>
+                    </button>
                     <div className="dropdown-menu dropdown-menu-right">
                         <Link className="dropdown-item" to="/catalog/advertise">
                             <FormattedMessage id="project.catalog.Advertise.title"/>

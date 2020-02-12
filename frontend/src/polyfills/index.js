@@ -1,4 +1,4 @@
 
-import 'core-js/fn/array/find';
-import 'core-js/fn/array/find-index';
-import 'core-js/fn/number/is-nan.js';
+import 'core-js/es/array/find';
+import 'core-js/es/array/find-index';
+import 'core-js/es/number/is-nan.js';

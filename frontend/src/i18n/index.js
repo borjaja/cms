@@ -1,13 +1,14 @@
-import {addLocaleData} from 'react-intl';
-import en from 'react-intl/locale-data/en';
-import es from 'react-intl/locale-data/es';
-import gl from 'react-intl/locale-data/gl';
+import '@formatjs/intl-relativetimeformat/polyfill';
+import '@formatjs/intl-relativetimeformat/dist/locale-data/en';
+import '@formatjs/intl-relativetimeformat/dist/locale-data/es';
+import '@formatjs/intl-relativetimeformat/dist/locale-data/gl';
+
 
 import messages from './messages';
 
 export const initReactIntl = () => {
 
-    addLocaleData([...en, ...es, ...gl]);
+    //addLocaleData([...en, ...es, ...gl]);
 
     let locale = (navigator.languages && navigator.languages[0]) ||
         navigator.language || navigator.userLanguage || 'en';

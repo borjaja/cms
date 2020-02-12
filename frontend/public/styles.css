@@ -5,3 +5,7 @@
 .form-group > label > span {
     font-weight: bold;
 }
+
+.dropdown-toggle.nav-link{
+    border: none;
+}
